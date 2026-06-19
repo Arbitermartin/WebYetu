@@ -6,7 +6,7 @@
  * Require Statements
  *************************/
 const express = require("express")
-// const env = require("dotenv").config()
+const env = require("dotenv").config()
 const expressLayouts = require("express-ejs-layouts")
 const app = express()
 // const baseController = require("./controllers/baseController")
